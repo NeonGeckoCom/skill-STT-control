@@ -1,18 +1,14 @@
-## skill-permit-audio-recording
-Skill, which lets the user switch between standard "wake-words" mode and "Always On"
+## skill-SST-control
+The skill-SST-control allows switching the SST process between local and internet processing.
 
 ## Description
-Skill, which works using Mycroft-core with NeonGeckoCom modifications, provides the user with the functionality to choose between continuous audio recording, which would not require wake words for Mycroft to work, and the "standard" mode, where the wake word "Hey Mycroft" is required.
-In addition, this skill allows the user to modify their audio and text recording permissions, which is essential for the "my coupons" skill and general user privacy.
-Skill works with wide variety of potential requests phrases.
+This skill adds/removes signal files to indicate which SST process to use and then restarts the speech/voice client. This includes skip-wake-words which also includes the new restart() function in speech/listener.py.
 
-Note: This skill would not proceed without the clear confirmation of the command from the user by asking "Should I stop skipping wake words?" and expecting a positive answer.
 
 ## Examples
-* "Start skipping wake words"
-* "Stop skipping wake words"
-* "stop audio coupons"
-* "deny audio deals"
+* "Start internet speech"
+* "Begin local processing"
+* "Use local speech"
 
 ## Credits
 NeonGeckoInc
