@@ -1,0 +1,9 @@
+{
+  "utterance": "use mycroft speech",
+  "intent_type": "UseMycroftSTT",
+  "intent": {
+    "InternetSTT1": "use",
+    "InternetSTT2": "mycroft",
+    "InternetSTT3": "speech"
+}
+}

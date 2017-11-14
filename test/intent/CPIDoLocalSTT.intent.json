@@ -1,0 +1,9 @@
+{
+  "utterance": "use local speech",
+  "intent_type": "UseLocalSTT",
+  "intent": {
+    "LocalSTT1": "use",
+    "LocalSTT2": "local",
+    "LocalSTT3": "speech"
+}
+}
